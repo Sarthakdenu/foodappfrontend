@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  #deliverypersonpage, #termsconditions {
+    flex: 1;
+    max-width: 48%;
+    background: #c7c7c7;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  #deliverypersonpage {
+    margin-right: 2%;
+  }
+  
+  #termsconditions {
+    margin-left: 2%;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group-text {
+    background: red;
+    color: #fff;
+    border: none;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .form-control {
+    border: 1px solid #ddd;
+    border-radius: 0 4px 4px 0;
+    padding: 10px;
+  }
+  
+  .btn-success {
+    width: 100%;
+    background: red;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn-success:hover {
+    background: #218838;
+  }
+  
+  .terms-accept {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .terms-accept input {
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    #deliverypersonpage, #termsconditions {
+      max-width: 100%;
+      margin: 0;
+    }
+  }
+  

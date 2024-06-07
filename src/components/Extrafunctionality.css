@@ -1,0 +1,78 @@
+#extrabeauty
+{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    background: url(https://as2.ftcdn.net/v2/jpg/04/86/54/75/1000_F_486547551_5OoNT24Mo6dCoFc8HWrFTfS3P3x6FRBq.jpg);
+}
+#wishliststyling , #resturantstyling , #deliverypersonstyling
+{
+    display: flex;
+    margin: 3rem;
+    padding: 5px 5px 5px 5px;
+    max-width: 300rem;
+    color: white;
+    font: bolder;
+    font-size: 20px;
+}
+.contentof
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+}
+#resturantstyling
+{
+    flex-direction: row-reverse;
+}
+.imgii
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 7px solid cyan;
+    border-radius: 100px;
+}
+.imgii img
+{
+    height: 10rem;
+    width: 10rem;
+    margin: 5px;
+    clip-path: circle(50%);
+}
+#wishliststyling , #deliverypersonstyling
+{
+    background-color: blueviolet;
+    border-right: 10px solid gold;
+    border-left: 10px solid gold;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 10px 10px 10px 10px;
+}
+#resturantstyling 
+{
+    background-color: rgb(0, 255, 72);
+    border-right: 10px solid gold;
+    border-left: 10px solid gold;
+    padding: 10px 10px 10px 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#deliverypersonstyling
+{
+    background-color: rgb(252, 42, 42);
+}
+.hehebtn 
+{
+   background-color: yellow;
+   color: black;
+   font-weight: bold;
+   border: 2px solid white;
+   border-radius: 20px;
+   padding: 10px;
+}

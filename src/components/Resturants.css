@@ -1,0 +1,167 @@
+
+.restaurant-card {
+    display: flex;
+   
+    background: white;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+    max-width: 90rem;
+    border: 2px solid  black;
+    border-radius: 20px;
+    width: 100%;
+   
+  }
+  #resturantcompo
+  {
+    background-image: url("https://as2.ftcdn.net/v2/jpg/04/86/54/75/1000_F_486547551_5OoNT24Mo6dCoFc8HWrFTfS3P3x6FRBq.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .restaurant-img
+  {
+    width:35rem;
+    padding: 10px 10px 10px 10px ;
+    border: 2px solid black;
+    background-color: rgb(255, 236, 236);
+  }
+  .restaurant-img img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .restaurant-info {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .restaurant-details {
+    flex-grow: 1;
+  }
+  
+  .restaurant-details h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .restaurant-details p {
+    margin: 5px 0;
+  }
+  
+  .restaurant-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .restaurant-actions button {
+    flex: 1;
+    padding: 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: lime;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .restaurant-actions .favorite-button {
+    background-color: #ff4757;
+  }
+  
+  .restaurant-actions button:hover {
+    background-color: green;
+  }
+  
+  .restaurant-actions .favorite-button:hover {
+    background-color: #ff6b81;
+  }
+  
+  @media (max-width: 600px) {
+    .restaurant-card {
+      flex-direction: column;
+    }
+  
+    .restaurant-img img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .restaurant-actions {
+      flex-direction: column;
+    }
+  
+    .restaurant-actions button {
+      margin: 10px 0;
+    }
+  }
+  #createresturants
+  {
+    display: flex;
+  
+    flex-direction: column;
+    align-items: center;
+    font-weight: 800;
+    justify-content: center;
+    
+    padding-bottom: 20px;
+    backdrop-filter: blur(1px);
+    max-width: 120rem;
+  }
+  #createresturants input{
+    max-width: 60rem;
+    background-color: rgb(255, 73, 73);
+    border: 2px solid rgb(246, 255, 74);
+
+  }
+  #createresturants .input-group
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #createresturants  .input-group-text
+  {
+    color: rgb(255, 32, 32);
+    background-color: white;
+    border: 1px solid rgb(250, 63, 63);
+    font-size: 2rem
+  }
+  #createresturants input::placeholder
+  {
+    color: white;
+    font-weight: bold;
+  }
+  #createresturants h2{
+    padding-top: 10px;
+    color: black;
+    text-shadow: #ff4757;
+    font-family: "Oswald", sans-serif;
+  }
+  #createresturants  button{
+    height: 3rem;
+    width: 10rem;
+    background-color: rgb(30, 164, 30);
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h1{
+    padding-top: 10px;
+    color: black;
+    text-shadow: #ff4757;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+  }

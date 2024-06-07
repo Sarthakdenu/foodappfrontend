@@ -1,0 +1,51 @@
+#contact{
+    position: relative;
+   }
+   #contact::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url(https://as2.ftcdn.net/v2/jpg/04/86/54/75/1000_F_486547551_5OoNT24Mo6dCoFc8HWrFTfS3P3x6FRBq.jpg) no-repeat center center/cover;
+   }
+   #contact-box{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+   }
+   #contact-box input{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border-radius: 9px;
+    background-color: rgb(29, 29, 29);
+   }
+   #contact-box textarea{
+   width: 100%;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border-radius: 9px;
+    background-color: rgb(29, 29, 29);
+   }
+   
+   #contact p{
+    padding-top: 30px;
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+   }
+   #contact-box form{
+    width: 40%;
+   }
+   #contact-box label{
+    font-size: 1.3rem;
+   }
+   #contact h1,#client-section h1{
+    font-family: 'Pacifico', cursive;
+   }

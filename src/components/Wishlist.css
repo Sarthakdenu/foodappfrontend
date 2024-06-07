@@ -1,0 +1,52 @@
+/* Deliveryperson.css */
+
+
+  #wishlistitems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  #wishlistitems > div {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex: 1 1 calc(33.333% - 40px); 
+    max-width: calc(33.333% - 40px);
+  }
+  
+  #wishlistitems > div img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  #wishlistitems > div h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  #wishlistitems > div p {
+    color: #666;
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  @media (max-width: 1024px) {
+    #wishlistitems > div {
+      flex: 1 1 calc(50% - 40px); /* Two items per row */
+      max-width: calc(50% - 40px); /* Two items per row */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #wishlistitems > div {
+      flex: 1 1 calc(100% - 40px); /* One item per row */
+      max-width: calc(100% - 40px); /* One item per row */
+    }
+  }
+  
